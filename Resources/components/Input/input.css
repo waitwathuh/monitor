@@ -1,0 +1,86 @@
+.inputComponent .divLabel
+{
+	color: rgba( 41, 42, 58, 0.3 );
+	font-family: 'Roboto';
+	font-size: 14px;
+	font-weight: 500;
+	float: left;
+	pointer-events: none;
+	position: absolute;
+	top: 22px;
+	-moz-transition: 0.2s ease all;
+	-webkit-transition: 0.2s ease all;
+	transition: 0.2s ease all;
+}
+
+.inputComponent .divLabelFocus
+{
+	color: #7F98FF;
+	font-family: 'Roboto';
+	font-size: 12px;
+	font-weight: 300;
+	float: left;
+	pointer-events: none;
+	position: absolute;
+	top: -5px;
+	-moz-transition: 0.2s ease all;
+	-webkit-transition: 0.2s ease all;
+	transition: 0.2s ease all;
+}
+
+.inputComponent .divInput
+{
+	border: none;
+	padding: 0px 0px 0px 0px;
+	border-bottom: 1px solid rgba( 41, 42, 58, 0.3 );
+	border-radius: 0px;
+	box-sizing: border-box;
+	font-family: 'Roboto';
+	font-weight: 500;
+	font-size: 14px;
+	margin-top: 16px;
+	outline: none;
+	width: 100%;
+	-webkit-appearance: none;
+	height: 26px;
+	color: rgba( 41, 42, 58, 0.3 );
+}
+
+.inputComponent .divLine
+{
+	background-color: #B0B8FF;
+	height: 3px;
+	left: 0%;
+	position: absolute;
+	right: 100%;
+	-moz-transition: 0.45s ease all;
+	-webkit-transition: 0.45s ease all;
+	transition: 0.45s ease all;
+	bottom: -1px;
+}
+
+.inputComponent .divLineShow
+{
+	background-color: #B0B8FF;
+	height: 3px;
+	left: 0%;
+	position: absolute;
+	right: 0%;
+	-moz-transition: 0.45s ease all;
+	-webkit-transition: 0.45s ease all;
+	transition: 0.45s ease all;
+	bottom: -1px;
+}
+
+.inputComponent .divErrorLine
+{
+	background-color: #F34235;
+	height: 2px;
+	left: 50%;
+	position: absolute;
+	right: 50%;
+	top: 45px;
+	-moz-transition: 0.2s ease all;
+	-webkit-transition: 0.2s ease all;
+	transition: 0.2s ease all;
+}

@@ -1,0 +1,761 @@
+#divSearchPanel
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	background-color: rgba(0, 0, 0, 0.3);
+	overflow-y: auto;
+}
+
+#divSearchPanel .filter
+{
+	position: relative;
+	display: inline-block;
+	width: calc( ( 100% - 72px ) / 2 );
+	height: calc( ( 100% - 120px ) / 2 );
+	margin-top: 48px;
+	background-color: rgba(255, 0, 0, 0.3);
+	border-radius: 2px;
+	margin-left: 24px;
+}
+
+#divSearchPanel .filterBanner
+{
+	position: absolute;
+	top: -24px;
+	left: 16px;
+	height: 88px;
+	right: 16px;
+	background-color: blue;
+	border-radius: 2px;
+}
+
+#divSearchPanel .btnFilter
+{
+	position: relative;
+	display: inline-block;
+	top: calc(50% - 18px);
+	width: 75px;
+	height: 36px;
+	margin-left: 24px;
+	border-radius: 2px;
+}
+
+#divSearchPanel .btnFilter p
+{
+	position: absolute;
+	font-size: 14px;
+	font-weight: 400;
+	color: #FFF;
+	border-radius: 2px;
+	padding-left: 16px;
+    padding-right: 16px;
+    height: 36px;
+    line-height: 36px;
+}
+
+#divSearchPanel .btnSearch
+{
+	position: relative;
+	display: inline-block;
+	top: calc(50% - 18px);
+	left: -3px;
+	width: 85px;
+	height: 36px;
+	margin-left: 24px;
+	border-radius: 2px;
+}
+
+#divSearchPanel .btnSearch p
+{
+	position: absolute;
+	font-size: 14px;
+	font-weight: 400;
+	color: #FFF;
+	border-radius: 2px;
+	padding-left: 16px;
+    padding-right: 16px;
+    height: 36px;
+    line-height: 36px;
+}
+
+#divSearchPanel .btnSelected
+{
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* categoryContainer */
+
+#divSearchPanel .categoryContainer
+{
+	position: absolute;
+	left: 16px;
+	top: 88px;
+	width: 372px;
+	height: 100px;
+	background-color: blueviolet;
+}
+
+#divSearchPanel .categoryContainer .windowsContainer
+{
+	width: 124px;
+	height: 50px;
+	background-color: #FFF;
+	float: left;
+}
+
+#divSearchPanel .categoryContainer .windowsContainer object
+{
+	position: relative;
+	display: inline-block;
+	width: 10px;
+	height: 12px;
+	top: calc(50% - 6px);
+	left: 24px;
+}
+
+#divSearchPanel .categoryContainer .windowsContainer p
+{
+	position: relative;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 400;
+	color: #7F98FF;
+	top: 18px;
+	left: 30px;
+}
+
+#divSearchPanel .categoryContainer .macContainer
+{
+	width: 124px;
+	height: 50px;
+	background-color: #FFF;
+	float: left;
+}
+
+#divSearchPanel .categoryContainer .macContainer object
+{
+	position: relative;
+	display: inline-block;
+	width: 10px;
+	height: 12px;
+	top: calc(50% - 6px);
+	left: 24px;
+}
+
+#divSearchPanel .categoryContainer .macContainer p
+{
+	position: relative;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 400;
+	color: #7F98FF;
+	top: 18px;
+	left: 30px;
+}
+
+#divSearchPanel .categoryContainer .linuxContainer
+{
+	width: 124px;
+	height: 50px;
+	background-color: #FFF;
+	float: left;
+}
+
+#divSearchPanel .categoryContainer .linuxContainer object
+{
+	position: relative;
+	display: inline-block;
+	width: 10px;
+	height: 12px;
+	top: calc(50% - 6px);
+	left: 24px;
+}
+
+#divSearchPanel .categoryContainer .linuxContainer p
+{
+	position: relative;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 400;
+	color: #7F98FF;
+	top: 18px;
+	left: 30px;
+}
+
+#divSearchPanel .categoryContainer .printerContainer
+{
+	width: 124px;
+	height: 50px;
+	background-color: #FFF;
+	float: left;
+}
+
+#divSearchPanel .categoryContainer .printerContainer object
+{
+	position: relative;
+	display: inline-block;
+	width: 10px;
+	height: 12px;
+	top: calc(50% - 6px);
+	left: 24px;
+}
+
+#divSearchPanel .categoryContainer .printerContainer p
+{
+	position: relative;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 400;
+	color: #7F98FF;
+	top: 18px;
+	left: 30px;
+}
+
+#divSearchPanel .categoryContainer .routerContainer
+{
+	width: 124px;
+	height: 50px;
+	background-color: #FFF;
+	float: left;
+}
+
+#divSearchPanel .categoryContainer .routerContainer object
+{
+	position: relative;
+	display: inline-block;
+	width: 10px;
+	height: 12px;
+	top: calc(50% - 6px);
+	left: 24px;
+}
+
+#divSearchPanel .categoryContainer .routerContainer p
+{
+	position: relative;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 400;
+	color: #7F98FF;
+	top: 18px;
+	left: 30px;
+}
+
+#divSearchPanel .categoryContainer .switchContainer
+{
+	position: relative;
+	display: inline-block;
+	width: 124px;
+	height: 50px;
+	background-color: #FFF;
+}
+
+#divSearchPanel .categoryContainer .switchContainer object
+{
+	position: relative;
+	display: inline-block;
+	width: 10px;
+	height: 12px;
+	top: calc(50% - 6px);
+	left: 24px;
+}
+
+#divSearchPanel .categoryContainer .switchContainer p
+{
+	position: relative;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 400;
+	color: #7F98FF;
+	top: 18px;
+	left: 30px;
+}
+
+/* statusContainer */
+
+#divSearchPanel .statusContainer
+{
+	position: absolute;
+	right: 16px;
+	top: 88px;
+	width: 372px;
+	height: 100px;
+	background-color: #FFF;
+}
+
+#divSearchPanel .statusContainer .onlineContainer
+{
+	width: 124px;
+	height: 50px;
+	background-color: #FFF;
+	float: left;
+}
+
+#divSearchPanel .statusContainer .onlineContainer object
+{
+	position: relative;
+	display: inline-block;
+	width: 10px;
+	height: 12px;
+	top: calc(50% - 6px);
+	left: 24px;
+}
+
+#divSearchPanel .statusContainer .onlineContainer p
+{
+	position: relative;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 400;
+	color: #ACE39B;
+	top: 18px;
+	left: 30px;
+}
+
+#divSearchPanel .statusContainer .pendingContainer
+{
+	width: 124px;
+	height: 50px;
+	background-color: #FFF;
+	float: left;
+}
+
+#divSearchPanel .statusContainer .pendingContainer object
+{
+	position: relative;
+	display: inline-block;
+	width: 10px;
+	height: 12px;
+	top: calc(50% - 6px);
+	left: 24px;
+}
+
+#divSearchPanel .statusContainer .pendingContainer p
+{
+	position: relative;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 400;
+	color: #6ECEC4;
+	top: 18px;
+	left: 30px;
+}
+
+#divSearchPanel .statusContainer .offlineContainer
+{
+	width: 124px;
+	height: 50px;
+	background-color: #FFF;
+	float: left;
+}
+
+#divSearchPanel .statusContainer .offlineContainer object
+{
+	position: relative;
+	display: inline-block;
+	width: 10px;
+	height: 12px;
+	top: calc(50% - 6px);
+	left: 24px;
+}
+
+#divSearchPanel .statusContainer .offlineContainer p
+{
+	position: relative;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 400;
+	color: #F59372;
+	top: 18px;
+	left: 30px;
+}
+
+#divSearchPanel .statusContainer .downtimeContainer
+{
+	width: 124px;
+	height: 50px;
+	background-color: #FFF;
+	float: left;
+}
+
+#divSearchPanel .statusContainer .downtimeContainer object
+{
+	position: relative;
+	display: inline-block;
+	width: 10px;
+	height: 12px;
+	top: calc(50% - 6px);
+	left: 24px;
+}
+
+#divSearchPanel .statusContainer .downtimeContainer p
+{
+	position: relative;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 400;
+	color: #7F98FF;
+	top: 18px;
+	left: 30px;
+}
+
+/* serviceContainer */
+
+#divSearchPanel .serviceContainer
+{
+	position: absolute;
+	left: 16px;
+	bottom: 0px;
+	width: 372px;
+	height: 50px;
+	background-color: blueviolet;
+}
+
+#divSearchPanel .serviceContainer .agentServiceContainer
+{
+	width: 124px;
+	height: 50px;
+	background-color: #FFF;
+	float: left;
+}
+
+#divSearchPanel .serviceContainer .agentServiceContainer object
+{
+	position: relative;
+	display: inline-block;
+	width: 10px;
+	height: 12px;
+	top: calc(50% - 6px);
+	left: 24px;
+}
+
+#divSearchPanel .serviceContainer .agentServiceContainer p
+{
+	position: relative;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 400;
+	color: #7F98FF;
+	top: 18px;
+	left: 30px;
+}
+
+#divSearchPanel .serviceContainer .diskContainer
+{
+	width: 124px;
+	height: 50px;
+	background-color: #FFF;
+	float: left;
+}
+
+#divSearchPanel .serviceContainer .diskContainer object
+{
+	position: relative;
+	display: inline-block;
+	width: 10px;
+	height: 12px;
+	top: calc(50% - 6px);
+	left: 24px;
+}
+
+#divSearchPanel .serviceContainer .diskContainer p
+{
+	position: relative;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 400;
+	color: #7F98FF;
+	top: 18px;
+	left: 30px;
+}
+
+#divSearchPanel .serviceContainer .ramContainer
+{
+	width: 124px;
+	height: 50px;
+	background-color: #FFF;
+	float: left;
+}
+
+#divSearchPanel .serviceContainer .ramContainer object
+{
+	position: relative;
+	display: inline-block;
+	width: 10px;
+	height: 12px;
+	top: calc(50% - 6px);
+	left: 24px;
+}
+
+#divSearchPanel .serviceContainer .ramContainer p
+{
+	position: relative;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 400;
+	color: #7F98FF;
+	top: 18px;
+	left: 30px;
+}
+
+/* agentContainer */
+
+#divSearchPanel .agentContainer
+{
+	position: absolute;
+	right: 16px;
+	bottom: 0px;
+	width: 372px;
+	height: 50px;
+	background-color: blueviolet;
+}
+
+#divSearchPanel .agentContainer .upToDateContainer
+{
+	width: 124px;
+	height: 50px;
+	background-color: #FFF;
+	float: left;
+}
+
+#divSearchPanel .agentContainer .upToDateContainer object
+{
+	position: relative;
+	display: inline-block;
+	width: 10px;
+	height: 12px;
+	top: calc(50% - 6px);
+	left: 24px;
+}
+
+#divSearchPanel .agentContainer .upToDateContainer p
+{
+	position: relative;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 400;
+	color: #7F98FF;
+	top: 18px;
+	left: 30px;
+}
+
+#divSearchPanel .agentContainer .outdatedContainer
+{
+	width: 124px;
+	height: 50px;
+	background-color: #FFF;
+	float: left;
+}
+
+#divSearchPanel .agentContainer .outdatedContainer object
+{
+	position: relative;
+	display: inline-block;
+	width: 10px;
+	height: 12px;
+	top: calc(50% - 6px);
+	left: 24px;
+}
+
+#divSearchPanel .agentContainer .outdatedContainer p
+{
+	position: relative;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 400;
+	color: #7F98FF;
+	top: 18px;
+	left: 30px;
+}
+
+#divSearchPanel .agentContainer .noneContainer
+{
+	width: 124px;
+	height: 50px;
+	background-color: #FFF;
+	float: left;
+}
+
+#divSearchPanel .agentContainer .noneContainer object
+{
+	position: relative;
+	display: inline-block;
+	width: 10px;
+	height: 12px;
+	top: calc(50% - 6px);
+	left: 24px;
+}
+
+#divSearchPanel .agentContainer .noneContainer p
+{
+	position: relative;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 400;
+	color: #7F98FF;
+	top: 18px;
+	left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#divSearchPanel .btnStatus
+{
+	position: relative;
+	display: inline-block;
+	top: calc(50% - 18px);
+	width: 84px;
+	height: 36px;
+	margin-left: 24px;
+	border-radius: 2px;
+}
+
+#divSearchPanel .btnStatus p
+{
+	position: absolute;
+	font-size: 14px;
+	font-weight: 400;
+	color: #FFF;
+	border-radius: 2px;
+	padding-left: 16px;
+    padding-right: 16px;
+    height: 36px;
+    line-height: 36px;
+}
+
+#divSearchPanel .btnHistory
+{
+	position: relative;
+	display: inline-block;
+	top: calc(50% - 18px);
+	left: -3px;
+	width: 90px;
+	height: 36px;
+	margin-left: 24px;
+	border-radius: 2px;
+}
+
+#divSearchPanel .btnHistory p
+{
+	position: absolute;
+	font-size: 14px;
+	font-weight: 400;
+	color: #FFF;
+	border-radius: 2px;
+	padding-left: 16px;
+    padding-right: 16px;
+    height: 36px;
+    line-height: 36px;
+}
+
+#divSearchPanel .graph
+{
+	position: relative;
+	display: inline-block;
+	width: calc( ( 100% - 72px ) / 2 );
+	height: calc( ( 100% - 120px ) / 2 );
+	margin-top: 48px;
+	left: -2px;
+	background-color: rgba(0, 255, 0, 0.3);
+	border-radius: 2px;
+	margin-left: 24px;
+}
+
+
+
+
+#divSearchPanel .dailContainer
+{
+	position: absolute;
+	width: 100%;
+	height: calc(100% - 64px);
+	bottom: 0px;
+}
+
+#divSearchPanel .dails
+{
+	width: calc( ( 100% - 80px ) / 4 );
+	height: 208px;
+	float: left;
+	margin: 72px 10px;
+	background-color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#divSearchPanel .graphBanner
+{
+	position: absolute;
+	top: -24px;
+	left: 16px;
+	height: 88px;
+	right: 16px;
+	background-color: blue;
+	border-radius: 2px;
+}
+
+#divSearchPanel .table
+{
+	position: relative;
+	width: calc( 100% - 48px );
+	height: 610px;
+	margin-left: 24px;
+	margin-bottom: 24px;
+	top: -2px;
+	margin-top: 48px;
+	background-color: rgba(0, 0, 0, 0.3);
+	border-radius: 2px;
+}
+
+#divSearchPanel .tableBanner
+{
+	position: absolute;
+	top: -24px;
+	right: 16px;
+	height: 48px;
+	width: 312px;
+	background-color: blue;
+	border-radius: 2px;
+}
+
+
+
+
+
+
+
+.track
+{
+	stroke: url(#grad1);
+}

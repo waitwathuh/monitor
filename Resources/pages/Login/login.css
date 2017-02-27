@@ -1,0 +1,176 @@
+#divContent
+{
+	left: 0px;
+	top: 0px;
+	background: -webkit-linear-gradient(left top, #F1F6FC , #B7B8BA); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right bottom, #F1F6FC, #B7B8BA); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right bottom, #F1F6FC, #B7B8BA); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right bottom, #F1F6FC , #B7B8BA); /* Standard syntax */
+}
+
+#divContent .divOverlay
+{
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	
+	background: -webkit-radial-gradient( #7F98FF, rgba( 127, 152, 255, 0 ) 70% ); /* For Safari 5.1 to 6.0 */
+	background: -o-radial-gradient( #7F98FF, rgba( 127, 152, 255, 0 ) 70% ); /* For Opera 11.1 to 12.0 */
+	background: -moz-radial-gradient( #7F98FF, rgba( 127, 152, 255, 0 ) 70% ); /* For Firefox 3.6 to 15 */
+	background: radial-gradient( circle, #7F98FF, rgba( 127, 152, 255, 0 ) ); /* Standard syntax */
+	
+	mix-blend-mode: lighten;
+}
+
+#divCredentialPanel
+{
+	position: absolute;
+	width: 600px;
+	height: 600px;
+	left: calc( 50% - 300px );
+	top: calc( 50% - 300px );
+}
+
+#divCredentialPanel .divBlueContainer
+{
+	position: absolute;
+	width: 560px;
+	height: 500px;
+	right: 0px;
+	bottom: 0px;
+	border-radius: 2px;
+	box-shadow: 5px 5px 25px rgba( 45, 89, 237, 0.2 );
+	background: -webkit-linear-gradient( bottom, #B0B8FF, #7F98FF ); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient( top, #B0B8FF, #7F98FF ); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient( top, #B0B8FF, #7F98FF ); /* For Firefox 3.6 to 15 */
+	background: linear-gradient( to top, #B0B8FF, #7F98FF ); /* Standard syntax */
+}
+
+#divCredentialPanel .divWhiteContainer
+{
+	position: absolute;
+	width: 560px;
+	height: 500px;
+	left: 0px;
+	top: 0px;
+	border-radius: 2px;
+	box-shadow: 20px 20px 50px rgba( 0, 0, 0, 0.2 );
+	background: -webkit-linear-gradient( bottom, #F4F7FC, #FFF); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(top, #F4F7FC, #FFF); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(top, #F4F7FC, #FFF); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to top, #F4F7FC, #FFF); /* Standard syntax */
+}
+
+#divCredentialPanel #btnLogin
+{
+	position: absolute;
+	left: 34px;
+	bottom: 40px;
+	cursor: pointer;
+	font-size: 24px;
+	font-weight: 500;
+	color: rgba( 255, 255, 255, 0.5 );
+	letter-spacing: 1px;
+}
+
+#divCredentialPanel .txtSignIn
+{
+	position: absolute;
+	left: 40px;
+	top: 28px;
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: 600;
+	color: #7F98FF;
+	letter-spacing: 1px;
+}
+
+#divCredentialPanel .txtSignUp
+{
+	position: absolute;
+	left: 174px;
+	top: 28px;
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: 600;
+	color: rgba( 176, 184, 255, 0.5 );
+	letter-spacing: 1px;
+}
+
+#divCredentialPanel .imgName
+{
+	position: absolute;
+	right: 40px;
+	top: 25px;
+	width: 126px;
+	height: 22px;
+	background-size: cover;
+}
+
+#divCredentialPanel .divGraph
+{
+	position: absolute;
+	right: calc( 50% - 62px );
+	top: 92px;
+	width: 124px;
+	height: 124px;
+	box-shadow: 10px 10px 54px rgba(45, 89, 237, 0.15);
+}
+
+#divCredentialPanel .imgGraph
+{
+	position: absolute;
+	width: 76px;
+	height: 42px;
+	left: calc( 50% - 38px );
+	top: calc( 50% - 21px );
+}
+
+#divCredentialPanel #txtUser
+{
+	position: absolute;
+	left: 124px;
+	bottom: 176px;
+	right: 124px;
+}
+
+#divCredentialPanel #txtPass
+{
+	position: absolute;
+	left: 124px;
+	bottom: 112px;
+	right: 124px;
+}
+
+#divCredentialPanel .imgForgotPassword
+{
+	position: absolute;
+	width: 20px;
+	height: 18px;
+	left: 124px;
+	bottom: 52px;
+}
+
+#divCredentialPanel #btnForgotPassword
+{
+	position: absolute;
+	left: 160px;
+	bottom: 52px;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 500;
+	color: #7F98FF;
+}
+
+.inputComponent .divInput
+{
+	background-color: rgb(249, 251, 253);
+}
+
+
+.monitorSymbol
+{
+	width: 82px;
+	height: 48px;
+}

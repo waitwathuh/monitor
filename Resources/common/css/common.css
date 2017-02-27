@@ -1,0 +1,19 @@
+#divMainContent
+{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+}
+
+#divLoader
+{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	background-color: rgb(102, 206, 255);
+	transition: opacity 0.5s, transform 1.5s ease-in-out;
+}
